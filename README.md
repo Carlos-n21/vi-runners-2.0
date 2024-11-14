@@ -54,9 +54,6 @@ About us: Brief introduction to VI Runners Bristol and how the group works.
 Running Benefits: Short list of overall physical and mental health benefits of running.
 <img src="readme-files/readme-photos/Benefits.png">
 
-2. About
-Links to the "About us" part on the home page.
-
 3. Gallery
 Images: A collection of images showcasing our group activities, from runs to social gatherings.
 <img src="readme-files/readme-photos/gallery.png">
