@@ -1,0 +1,72 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+/* CSS variables */
+:root {
+  --primary-color: #000000;
+  --color-heading: #000080;
+  --primary-font: 'Roboto', "Oswald", sans-serif;
+  --font-weight: bold;
+  --font-style: uppercase;
+}
+
+/* custom styles */
+
+.img-fluid {
+  width: 100%;
+}
+
+.head-1 {
+  font-size: 1.5rem;
+  color: var(--color-heading);
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  text-transform: var(--font-style);
+}
+
+.head-2 {
+  font-size: 1.25rem;
+  color: var(--color-heading);
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  text-transform: var(--font-style);
+}
+
+.py-3 {
+  padding-top: 6rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* show underline on selected page to show the user their location on large screens  */
+.active {
+  text-decoration: underline;
+}
+
+.hero-image {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* remove space between images on gallery page  */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters>[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
